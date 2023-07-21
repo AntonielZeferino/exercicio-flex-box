@@ -1,0 +1,41 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+     background-color: rgb(121, 127, 134);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     min-height: 100vh;
+}
+
+header{
+     width: 100%;
+     background-color: white;
+}
+
+main{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 50px 16px;
+     flex-shrink: 1;
+     flex: 1 0 250px;
+}
+
+.itens{
+     width: 200px;
+     height: 200px;
+     background-color: #fff;
+     border: 2px solid black;
+}
+
+footer{
+     width: 100%;
+     height: 70px;
+     background-color: white;
+}
